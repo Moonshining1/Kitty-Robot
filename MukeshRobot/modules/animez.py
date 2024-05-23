@@ -487,14 +487,14 @@ def site_search(update: Update, context: CallbackContext, site: str):
         search_result = soup.find_all("h2", {"class": "post-title"})
 
         if search_result:
-            result = f"❍ <b>sᴇᴀʀᴄʜ ʀᴇsᴜʟᴛs ғᴏʀ</b> <code>{html.escape(search_query)}</code> <b>ᴏɴ</b> @RoY_EdiTX\n"
+            result = f"❍ <b>sᴇᴀʀᴄʜ ʀᴇsᴜʟᴛs ғᴏʀ</b> <code>{html.escape(search_query)}</code> <b>ᴏɴ</b> @Moonshining2\n"
             for entry in search_result:
                 post_link = "https://animekaizoku.com/" + entry.a["href"]
                 post_name = html.escape(entry.text)
                 result += f"❍ <a href='{post_link}'>{post_name}</a>\n"
         else:
             more_results = False
-            result = f"❍ <b>ɴᴏ ʀᴇsᴜʟᴛ ғᴏᴜɴᴅ ғᴏʀ</b> <code>{html.escape(search_query)}</code> <b>ᴏɴ</b> @RoY_EdiTX"
+            result = f"❍ <b>ɴᴏ ʀᴇsᴜʟᴛ ғᴏᴜɴᴅ ғᴏʀ</b> <code>{html.escape(search_query)}</code> <b>ᴏɴ</b> @Moonshining2"
 
     elif site == "kayo":
         search_url = f"https://animekayo.com/?s={search_query}"
@@ -502,11 +502,11 @@ def site_search(update: Update, context: CallbackContext, site: str):
         soup = bs4.BeautifulSoup(html_text, "html.parser")
         search_result = soup.find_all("h2", {"class": "title"})
 
-        result = f"❍ <b>sᴇᴀʀᴄʜ ʀᴇsᴜʟᴛs ғᴏʀ</b> <code>{html.escape(search_query)}</code> <b>ᴏɴ</b> @KayoAnime: \n"
+        result = f"❍ <b>sᴇᴀʀᴄʜ ʀᴇsᴜʟᴛs ғᴏʀ</b> <code>{html.escape(search_query)}</code> <b>ᴏɴ</b> @Kittyxupdates: \n"
         for entry in search_result:
 
             if entry.text.strip() == "Nothing Found":
-                result = f"❍ <b>ɴᴏ ʀᴇsᴜʟᴛ ғᴏᴜɴᴅ ғᴏʀ</b> <code>{html.escape(search_query)}</code> <b>ᴏɴ</b> @KayoAnime"
+                result = f"❍ <b>ɴᴏ ʀᴇsᴜʟᴛ ғᴏᴜɴᴅ ғᴏʀ</b> <code>{html.escape(search_query)}</code> <b>ᴏɴ</b> @Kittyxupdates"
                 more_results = False
                 break
 
