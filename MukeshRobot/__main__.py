@@ -71,7 +71,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 PM_START_TEX = """
-ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ....
+🇲σ᭡፝֟ɳ🌙....
 """
 
 
@@ -98,7 +98,7 @@ buttons = [
 
 roy = [
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/roy_editx"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/kittyxupdates"),
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
@@ -136,73 +136,26 @@ HELP_STRINGS = f"""
 ❖ {BOT_NAME}  ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ."""
 
 ABHI = [
-"https://graph.org/file/f76fd86d1936d45a63c64.jpg",
-"https://graph.org/file/69ba894371860cd22d92e.jpg",
-"https://graph.org/file/67fde88d8c3aa8327d363.jpg",
-"https://graph.org/file/3a400f1f32fc381913061.jpg",
-"https://graph.org/file/a0893f3a1e6777f6de821.jpg",
-"https://graph.org/file/5a285fc0124657c7b7a0b.jpg",
-"https://graph.org/file/25e215c4602b241b66829.jpg",
-"https://graph.org/file/a13e9733afdad69720d67.jpg",
-"https://graph.org/file/692e89f8fe20554e7a139.jpg",
-"https://graph.org/file/db277a7810a3f65d92f22.jpg",
-"https://graph.org/file/a00f89c5aa75735896e0f.jpg",
-"https://graph.org/file/f86b71018196c5cfe7344.jpg",
-"https://graph.org/file/a3db9af88f25bb1b99325.jpg",
-"https://graph.org/file/5b344a55f3d5199b63fa5.jpg",
-"https://graph.org/file/84de4b440300297a8ecb3.jpg",
-"https://graph.org/file/84e84ff778b045879d24f.jpg",
-"https://graph.org/file/a4a8f0e5c0e6b18249ffc.jpg",
-"https://graph.org/file/ed92cada78099c9c3a4f7.jpg",
-"https://graph.org/file/d6360613d0fa7a9d2f90b.jpg",
-"https://graph.org/file/37248e7bdff70c662a702.jpg",
-"https://graph.org/file/0bfe29d15e918917d1305.jpg",
-"https://graph.org/file/16b1a2828cc507f8048bd.jpg",
-"https://graph.org/file/e6b01f23f2871e128dad8.jpg",
-"https://graph.org/file/cacbdddee77784d9ed2b7.jpg",
-"https://graph.org/file/ddc5d6ec1c33276507b19.jpg",
-"https://graph.org/file/39d7277189360d2c85b62.jpg",
-"https://graph.org/file/5846b9214eaf12c3ed100.jpg",
-"https://graph.org/file/ad4f9beb4d526e6615e18.jpg",
-"https://graph.org/file/3514efaabe774e4f181f2.jpg",   
+"https://graph.org/file/0bfe29d15e918917d1305.jpg",  
 
 ]
 
 NYKAA = [
-    "https://graph.org/file/9bba2b7ee9ba3806de65d.jpg",
-    "https://graph.org/file/ef82f289043a4fa74f8ff.jpg",
-    "https://graph.org/file/9c27c68958e06ae074c38.jpg",
-    "https://graph.org/file/0ff325b1d2efe80299aa3.jpg",
-    "https://graph.org/file/41167b953cf3579853d47.jpg",
-    "https://graph.org/file/bd93ab42e69305f274028.jpg",
-    "https://graph.org/file/97575db5586c05d6b2898.jpg",
-    "https://graph.org/file/07c393fdf931a407c9bc0.jpg",
-    "https://graph.org/file/f332767490ad3a5ca20e8.jpg",
-    "https://graph.org/file/f3449e9069667f647d14e.jpg",
-    "https://graph.org/file/9f51cdc739f907cbd2c7e.jpg",
-    "https://telegra.ph/file/d7a6a923c38e051ce35f3.jpg",
-    "https://graph.org/file/f86b71018196c5cfe7344.jpg",
-    "https://graph.org/file/a3db9af88f25bb1b99325.jpg",
-    "https://graph.org/file/5b344a55f3d5199b63fa5.jpg",
-    "https://graph.org/file/84de4b440300297a8ecb3.jpg",
-    "https://graph.org/file/84e84ff778b045879d24f.jpg",
-    "https://graph.org/file/a4a8f0e5c0e6b18249ffc.jpg",
-    "https://graph.org/file/ed92cada78099c9c3a4f7.jpg",
-    "https://graph.org/file/d6360613d0fa7a9d2f90b.jpg",
-    "https://graph.org/file/37248e7bdff70c662a702.jpg",
-    "https://graph.org/file/0bfe29d15e918917d1305.jpg",
-    "https://graph.org/file/16b1a2828cc507f8048bd.jpg",
-    "https://graph.org/file/e6b01f23f2871e128dad8.jpg",
-    "https://graph.org/file/cacbdddee77784d9ed2b7.jpg",
-    "https://graph.org/file/ddc5d6ec1c33276507b19.jpg",
-    "https://graph.org/file/39d7277189360d2c85b62.jpg",
-    "https://graph.org/file/5846b9214eaf12c3ed100.jpg",
-    "https://graph.org/file/ad4f9beb4d526e6615e18.jpg",
-    "https://graph.org/file/3514efaabe774e4f181f2.jpg",    
+"https://telegra.ph/file/e2e2b8f98caa698fa639d.jpg",
+"https://telegra.ph/file/2748bea032f761d7e19ef.jpg",
+"https://telegra.ph/file/99b11ca3d972fc46001db.jpg",
+"https://telegra.ph/file/541e75860e2126a153c18.jpg",
+"https://telegra.ph/file/2ac48eb1a970b615a0256.jpg",
+"https://telegra.ph/file/f91dabd7e447770e1aff3.jpg",
+"https://telegra.ph/file/8d40084609846e1234395.jpg",
+"https://telegra.ph/file/825283dffea0d41fdda73.jpg",
+"https://telegra.ph/file/a9fb63776dc105d4c346f.jpg",
+"https://telegra.ph/file/150a8454c966dd6db1356.jpg",
+    
 ]
 
 
-DONATE_STRING = f"""❍ ʜᴇʏ ʙᴀʙʏ, ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ. ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @roy_editx ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @the_friendz ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+DONATE_STRING = f"""❍ ʜᴇʏ ʙᴀʙʏ, ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ. ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @Kittyxupdates ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @grandxmasti ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -329,7 +282,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             random.choice(NYKAA),
-            caption="⬤ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐ ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ ♥︎ \n\n⬤ ᴜᴘᴛɪᴍᴇ ➥ `<code>{}</code>`".format(
+            caption="⬤ ˹𝐊íԵԵყ˼ ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ 🐬 \n\n⬤ ᴜᴘᴛɪᴍᴇ ➥ `<code>{}</code>`".format(
                 uptime
             ),
             reply_markup=InlineKeyboardMarkup(roy),
@@ -476,7 +429,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(text="ʜᴏᴍᴇ", callback_data="mukesh_back"),
-                        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/roy_editx"),
+                        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/kittyxupdates"),
                     ],
                 ]
             ),
@@ -1092,9 +1045,9 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 6922271843:
+        if OWNER_ID != 7006715434:
             update.effective_message.reply_text(
-                f"๏ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/noob-mukesh/nothing?)"
+                f"๏ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://t.me/kittyxupdates)"
                 f"\n\n๏ ʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]",
                 parse_mode=ParseMode.MARKDOWN,
                 
@@ -1144,7 +1097,7 @@ def main():
                     [
                         InlineKeyboardButton(
                             text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
-                            url="https://t.me/avishaxbot?startgroup=true"
+                            url="https://t.me/KittyxRobot_bot?startgroup=true"
                             )
                        ]
                 ]
@@ -1162,7 +1115,7 @@ def main():
 ⬤ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥ `{tlhver}`
 ⬤ ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ ➥ `{pyrover}`
 
-❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐](https://t.me/roy_editx)
+❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [🇲σ᭡፝֟ɳ🌙](https://t.me/Kittyxupdates)
      ━━━━━━━━ 🝮✿🝮 ━━━━━━━━
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,
